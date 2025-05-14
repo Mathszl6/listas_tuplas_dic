@@ -1,10 +1,7 @@
-palavras = ['uva','morango','banana']
-string = ''
+lista = [3,1,4,1,5,9]
 
-for palavra in range(len(palavras)):
-    string += palavras[palavra]
-    if palavra < len(palavras) - 1:
-        string += ', '
+lista.sort()
+print(lista)
 
-print(string)
-    
+lista.sort(reverse=True)
+print(lista)
